@@ -21,9 +21,18 @@
             </when>
             <perform>
                 <classification title="Java Remote Method Invocation API usage" effort="3" category-id="optional">
-                    <description>Java RMI should be avoided in OpenShift environments, as it tends to lead to tightly-coupled stateful applications with scalability problems. Consider replacing it with a solution using RESTful APIs or message queues.
+                    <description>
+                        <!--
+                        Java RMI should be avoided in OpenShift environments, as it tends to lead to tightly-coupled stateful applications with scalability problems. Consider replacing it with a solution using RESTful APIs or message queues.
+                        -->
+                        RESTful services are applicable for 'lightweight' communication, but depending on what RMI calls are to be replaced, neither RESTful nor messaging might be the right architectural approach:
+
+                        * Messaging is assynchronous by nature, which is not always applicable, or the overhead of a synchronous wrapper on asynchronous transport is not desirable.
+                        * Messaging in a cloud environment may have some challenges as well, if you do not yet have the messaging infrastructure for 'complex' operations you may want to have WebServices
+                          as RESTful will not be able to easily handle complex parameter objects or error handling.
+                        * Even a microservice may want to return in error/failure case a suitable and typed error reply (SOAP fault does it, RESTful service is limited to much weaker capabilities)
+
                     </description>
-<!--                     <link href="" title=""></link> -->
                     <tag>rmi</tag>
                 </classification>
             </perform>

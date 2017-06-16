@@ -11,8 +11,8 @@
                 JBoss EAP 6+.
             </description>
             <dependencies>
-                <addon id="org.jboss.windup.rules,windup-rules-javaee,2.2.0.Final" />
-                <addon id="org.jboss.windup.rules,windup-rules-java,2.2.0.Final" />
+                <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+                <addon id="org.jboss.windup.rules,windup-rules-java"/>
             </dependencies>
             <sourceTechnology id="websphere" />
             <sourceTechnology id="websphere-mq" />

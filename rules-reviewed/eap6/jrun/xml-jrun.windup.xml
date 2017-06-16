@@ -8,7 +8,7 @@
             attention when migrating to JBoss EAP 6+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-xml,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-xml"/>
         </dependencies>
         <sourceTechnology id="jrun" />
         <targetTechnology id="eap" versionRange="[6,7)" />

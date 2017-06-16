@@ -8,8 +8,8 @@
             This is a ruleset for detecting Mail API usage when migrating an application to a cloud environment.
         </description>
         <dependencies>
-          <addon id="org.jboss.windup.rules,windup-rules-javaee,3.0.0.Final"/>
-          <addon id="org.jboss.windup.rules,windup-rules-java,3.0.0.Final"/>
+          <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+          <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="java"/>
         <sourceTechnology id="java-ee"/>
@@ -29,8 +29,8 @@
             <perform>
               <hint title="Java Mail API" effort="3" category-id="cloud-optional">
                   <message>
-                    In a cloud environment, mail systems should be considered as backing services.  
-                    Ensure that the configuration of the underlying outbound mail connection is not environment-specific (e.g. no static IP, URL, property, credential, certificate...). In OpenShift, environment variables or config map could be used for this purpose.  
+                    In a cloud environment, mail systems should be considered as backing services.
+                    Ensure that the configuration of the underlying outbound mail connection is not environment-specific (e.g. no static IP, URL, property, credential, certificate...). In OpenShift, environment variables or config map could be used for this purpose.
                 </message>
                 <link href="https://12factor.net/backing-services" title="Twelve-factor app - Backing services"/>
                 <link href="https://12factor.net/config" title="Twelve-factor app - Config"/>

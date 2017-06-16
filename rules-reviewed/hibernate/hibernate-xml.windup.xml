@@ -7,8 +7,8 @@
             This ruleset provides analysis of Hibernate older version xml configuration files and their migration to newer one.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.3.0.Final" />
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="hibernate" versionRange="[,3.9)" />
         <targetTechnology id="hibernate" versionRange="[4,)" />

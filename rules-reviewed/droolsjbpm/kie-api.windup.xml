@@ -7,8 +7,8 @@
              upgrade from version 5 to 6.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.4.0.Final" />
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.4.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="drools" versionRange="[5]" />
         <sourceTechnology id="jbpm" versionRange="[5]" />

@@ -6,8 +6,8 @@
             This is a ruleset for local storage related suggestions for migrating to cloud environments.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,3.0.0.Final" />
-            <addon id="org.jboss.windup.rules,windup-rules-java,3.0.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <targetTechnology id="cloud-readiness" />
     </metadata>

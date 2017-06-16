@@ -12,8 +12,8 @@
             in rulesets dedicated to either version.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.6.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.6.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[5,7)"/>
         <targetTechnology id="eap" versionRange="[7,)"/>

@@ -19,8 +19,8 @@
             Mainly deals with datasources, JBoss Web and EJB configuration.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.6.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.6.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[5,7)"/>
         <targetTechnology id="eap" versionRange="[7,)"/>
@@ -125,8 +125,8 @@
                 <classification title="JBoss EJB 2 CMP Deployment descriptor (jbosscmp-jdbc.xml)" effort="5" category-id="mandatory">
                     <description>
                         The `jbosscmp-jdbc.xml` is a deployment decriptor controlling the Container Managed Persistence (CMP).
-                        
-                        Support for EJB Entity Beans is optional in Java EE 7 and they are not supported in JBoss EAP 7.  
+
+                        Support for EJB Entity Beans is optional in Java EE 7 and they are not supported in JBoss EAP 7.
                         This means CMP entity beans must be rewritten to use Java Persistence API (JPA) entities.
                     </description>
                     <link title="JBoss EAP 4: The jbosscmp-jdbc Structure" href="https://docs.jboss.org/jbossas/docs/Server_Configuration_Guide/4/html/The_CMP_Engine-The_jbosscmp_jdbc_Structure.html"/>

@@ -9,8 +9,8 @@
             This ruleset provides analysis of JBoss EAP 5 JAVA source files that may require individual attention when migrating to JBoss EAP 7+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.3.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.3.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[5,6)"/>
         <targetTechnology id="eap" versionRange="[7,)"/>

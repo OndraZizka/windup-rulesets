@@ -6,7 +6,7 @@
             This ruleset provides analysis of WebSphere proprietary xml files and constructs that may require individual attention when migrating to JBoss EAP 7+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-xml,2.7.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-xml"/>
         </dependencies>
         <sourceTechnology id="websphere"/>
         <targetTechnology id="eap" versionRange="[7,8)"/>

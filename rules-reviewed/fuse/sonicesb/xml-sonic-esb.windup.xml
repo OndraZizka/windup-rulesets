@@ -8,7 +8,7 @@
             This rule set identifies Sonic ESB XML configuration files.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-xml,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-xml"/>
         </dependencies>
         <sourceTechnology id="sonicesb" />
         <targetTechnology id="fuse" versionRange="[6,)" />

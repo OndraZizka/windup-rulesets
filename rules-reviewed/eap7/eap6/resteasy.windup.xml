@@ -6,7 +6,7 @@
             This ruleset provides analysis of JBoss EAP 6 and RESTEasy 2 which needs to be replaced when migrating to JBoss EAP 7+ and RESTEasy 3+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-xml,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-xml"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[6,7)" />
         <sourceTechnology id="resteasy" versionRange="[2,3)" />

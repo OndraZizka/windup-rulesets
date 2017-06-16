@@ -9,8 +9,8 @@
             and to assist in the conversion of this code to code that is compatible with JBoss EAP 7+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.7.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.7.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="weblogic"/>
         <targetTechnology id="eap" versionRange="[7,8)"/>

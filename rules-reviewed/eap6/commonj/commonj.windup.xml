@@ -7,8 +7,8 @@
             to JBoss EAP 6+.
         </description>
       <dependencies>
-         <addon id="org.jboss.windup.rules,windup-rules-javaee,2.4.0.Final" />
-         <addon id="org.jboss.windup.rules,windup-rules-java,2.4.0.Final" />
+         <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+         <addon id="org.jboss.windup.rules,windup-rules-java"/>
       </dependencies>
       <sourceTechnology id="weblogic" />
       <sourceTechnology id="websphere" />

@@ -10,8 +10,8 @@
             when migrating to JBoss EAP 7+. Mainly deals with datasources, JBoss Web and EJB configuration.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,2.6.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.6.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[5,6)"/>
         <targetTechnology id="eap" versionRange="[7,)"/>

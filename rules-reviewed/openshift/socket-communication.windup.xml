@@ -8,8 +8,8 @@
             This is a ruleset for detecting usage of socket communication (both client and server socket usage) when migrating an application to a cloud environment.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-javaee,3.0.0.Final"/>
-            <addon id="org.jboss.windup.rules,windup-rules-java,3.0.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-javaee"/>
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="java"/>
         <sourceTechnology id="java-ee"/>
@@ -30,9 +30,9 @@
               <iteration>
                 <hint title="Socket communication" effort="5" category-id="cloud-optional">
                     <message>
-                      Java sockets are internal end-points of two-way communications. They are defined by an IP address, port, and protocol (TCP/UDP).  
-                      Direct communication through sockets and channels is an anti-pattern in cloud environment because it is not a reliable and scalable way of interact with other systems.  
-                      Java EE standard and loosely coupled protocols like JMS, JAX-RS and JAX-WS are recommended for backing services interactions.  
+                      Java sockets are internal end-points of two-way communications. They are defined by an IP address, port, and protocol (TCP/UDP).
+                      Direct communication through sockets and channels is an anti-pattern in cloud environment because it is not a reliable and scalable way of interact with other systems.
+                      Java EE standard and loosely coupled protocols like JMS, JAX-RS and JAX-WS are recommended for backing services interactions.
                     </message>
                     <link href="https://12factor.net/backing-services" title="Twelve-factor app - Backing services"/>
                     <tag>socket</tag>
@@ -51,9 +51,9 @@
               <iteration>
                 <hint title="Java NIO channel" effort="5" category-id="cloud-optional">
                     <message>
-                      Java NIO Channels are designed to provide for bulk data transfers to and from NIO buffers. They can be synchronously and asynchronously read and written.  
-                      Direct communication through sockets and channels is an anti-pattern in cloud environment because it is not a reliable and scalable way of interact with other systems.  
-                      Java EE standard and loosely coupled protocols like JMS, JAX-RS and JAX-WS are recommended for backing services interactions.  
+                      Java NIO Channels are designed to provide for bulk data transfers to and from NIO buffers. They can be synchronously and asynchronously read and written.
+                      Direct communication through sockets and channels is an anti-pattern in cloud environment because it is not a reliable and scalable way of interact with other systems.
+                      Java EE standard and loosely coupled protocols like JMS, JAX-RS and JAX-WS are recommended for backing services interactions.
                     </message>
                     <link href="https://12factor.net/backing-services" title="Twelve-factor app - Backing services"/>
                   <tag>socket</tag>

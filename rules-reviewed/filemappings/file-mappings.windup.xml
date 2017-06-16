@@ -7,7 +7,7 @@
             This rule set configures the organization matching functionality, using known root-package prefixes to identify libraries and other code.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-base,2.3.0.Final"/>
+            <addon id="org.jboss.windup.rules,windup-rules-base"/>
         </dependencies>
     </metadata>
 

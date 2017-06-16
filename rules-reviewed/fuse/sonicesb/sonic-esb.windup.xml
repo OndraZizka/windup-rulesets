@@ -7,7 +7,7 @@
             This ruleset contains rules that assist in migrating from Sonic ESB to Apache Camel.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-java,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-java"/>
         </dependencies>
         <sourceTechnology id="sonic" />
         <targetTechnology id="fuse" versionRange="[6,)" />

@@ -9,7 +9,7 @@
             which needs to be replaced by some alternative configuration when migrating to JBoss EAP 7+.
         </description>
         <dependencies>
-            <addon id="org.jboss.windup.rules,windup-rules-xml,2.3.0.Final" />
+            <addon id="org.jboss.windup.rules,windup-rules-xml"/>
         </dependencies>
         <sourceTechnology id="eap" versionRange="[6,7)" />
         <targetTechnology id="eap" versionRange="[7,)" />

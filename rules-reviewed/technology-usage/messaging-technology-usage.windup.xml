@@ -21,6 +21,7 @@
             </when>
             <perform>
                 <technology-identified name="JMS Queue">
+                    <tag name="jms"/>
                     <tag name="Connect"/>
                     <tag name="Messaging"/>
                     <tag name="Java EE"/>
@@ -35,6 +36,7 @@
             </when>
             <perform>
                 <technology-identified name="JMS Topic">
+                    <tag name="jms"/>
                     <tag name="Connect"/>
                     <tag name="Messaging"/>
                     <tag name="Java EE"/>
@@ -47,6 +49,7 @@
             </when>
             <perform>
                 <technology-identified name="JMS Connection Factory">
+                    <tag name="jms"/>
                     <tag name="Connect"/>
                     <tag name="Messaging"/>
                     <tag name="Java EE"/>

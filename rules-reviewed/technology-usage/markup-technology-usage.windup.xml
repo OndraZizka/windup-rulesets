@@ -20,6 +20,7 @@
             </when>
             <perform>
                 <technology-identified name="HTML">
+                    <tag name="html"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="Markup"/>
@@ -32,6 +33,7 @@
             </when>
             <perform>
                 <technology-identified name="CSS">
+                    <tag name="css"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="Markup"/>
@@ -44,6 +46,7 @@
             </when>
             <perform>
                 <technology-identified name="JS">
+                    <tag name="javascript"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="Markup"/>

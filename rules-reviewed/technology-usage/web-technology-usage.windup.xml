@@ -19,6 +19,7 @@
             </when>
             <perform>
                 <technology-identified name="JSF Page">
+                    <tag name="jsf"/>
                     <tag name="View"/>
                     <tag name="Web"/>
                     <tag name="Java EE"/>
@@ -31,6 +32,7 @@
             </when>
             <perform>
                 <technology-identified name="JSP Page">
+                    <tag name="jsp"/>
                     <tag name="View"/>
                     <tag name="Web"/>
                     <tag name="Java EE"/>
@@ -43,6 +45,7 @@
             </when>
             <perform>
                 <technology-identified name="Web XML File">
+                    <tag name="web"/>
                     <tag name="View"/>
                     <tag name="Web"/>
                     <tag name="Java EE"/>
@@ -57,6 +60,7 @@
             </when>
             <perform>
                 <technology-identified name="WebSocket">
+                    <tag name="web"/>
                     <tag name="View"/>
                     <tag name="Web"/>
                     <tag name="Java EE"/>
@@ -74,6 +78,7 @@
                     <message>Applet is here</message>
                 </hint>
                 <technology-identified name="Applet">
+                    <tag name="applet"/>
                     <tag name="View"/>
                     <tag name="Rich"/>
                     <tag name="Java EE"/>
@@ -86,6 +91,7 @@
             </when>
             <perform>
                 <technology-identified name="JNLP">
+                    <tag name="jnlp"/>
                     <tag name="View"/>
                     <tag name="Rich"/>
                     <tag name="Java EE"/>

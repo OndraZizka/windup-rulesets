@@ -22,6 +22,7 @@
             </when>
             <perform>
                 <technology-identified name="Stateless (SLSB)">
+                    <tag name="ejb"/>
                     <tag name="Connect"/>
                     <tag name="Bean"/>
                     <tag name="Java EE"/>
@@ -36,6 +37,7 @@
             </when>
             <perform>
                 <technology-identified name="Stateful (SFSB)">
+                    <tag name="ejb"/>
                     <tag name="Connect"/>
                     <tag name="Bean"/>
                     <tag name="Java EE"/>
@@ -48,6 +50,7 @@
             </when>
             <perform>
                 <technology-identified name="Message (MDB)">
+                    <tag name="ejb"/>
                     <tag name="Connect"/>
                     <tag name="Bean"/>
                     <tag name="Java EE"/>
@@ -60,6 +63,7 @@
             </when>
             <perform>
                 <technology-identified name="Entity Bean">
+                    <tag name="ejb"/>
                     <tag name="Connect"/>
                     <tag name="Bean"/>
                     <tag name="Java EE"/>

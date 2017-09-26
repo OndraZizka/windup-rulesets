@@ -20,6 +20,7 @@
             </when>
             <perform>
                 <technology-identified name="Wicket">
+                    <tag name="wicket"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="MVC"/>
@@ -34,6 +35,7 @@
             </when>
             <perform>
                 <technology-identified name="Struts">
+                    <tag name="struts"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="MVC"/>
@@ -48,6 +50,7 @@
             </when>
             <perform>
                 <technology-identified name="Spring-MVC">
+                    <tag name="spring-mvc"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="MVC"/>
@@ -62,6 +65,7 @@
             </when>
             <perform>
                 <technology-identified name="GWT">
+                    <tag name="gwt"/>
                     <tag name="View"/>
                     <tag name="Embedded"/>
                     <tag name="MVC"/>

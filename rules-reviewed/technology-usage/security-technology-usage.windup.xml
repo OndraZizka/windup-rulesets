@@ -29,6 +29,7 @@
             </when>
             <perform>
                 <technology-identified name="Security Realm">
+                    <tag name="security"/>
                     <tag name="Sustain"/>
                     <tag name="Security"/>
                     <tag name="Java EE"/>
